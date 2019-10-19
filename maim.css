@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.container{
+    width: 980px;
+    margin: auto;
+}
+.logo-wrapper{
+    text-align: center;
+    background: #350a21;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    height: 150px;
+}
+.menu{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 38px;
+    text-align: center;
+    background-color: #b85797;
+    padding-left: 0px;
+    margin: 0px;
+}
+.menu li{
+    padding: 9px;
+}
+.menu li a{
+    font-family: tahoma;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+    color: #e3cde2;
+}
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 10px 0px;
+}
+.main-content{
+    margin-right: 5px;
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+    padding: 20px 10px;
+    
+}
+.product-item{
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #cccc;
+}
+.title{
+    font-family: tahoma;
+    font-weight: normal;
+    text-align: center;
+    font-size: 24pt;
+    margin-bottom: 10px;
+    color: #b85797;
+}
+hr{
+    margin: 0px;
+}
+.sale{
+    position: absolute;
+    top: 0; right: 0;
+    color: #b85797;
+}
+.product-price{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    line-height: 1.8;
+}
+aside{
+    background-color: #fae8f4;
+}
+.menu>li:hover{
+    color: blue;
+    background-color: #350a21;
+}
+footer{
+    background-color: #350a21;
+    text-align: center;
+}
+.old-price{
+    text-decoration: line-through;
+    font-weight: normal;
+    font-family: tahoma;
+    font-size: 12pt;
+}
+h4 a{
+    text-decoration: none;
+    font-family: tahoma;
+    font-weight: normal;
+    color: #363535;
+    size: 19pt;
+}
+.btn-btn-primary{
+    background-color: #350a21;
+    width: 160px;
+    height: 40px;
+    color: #fae8f4;
+    margin-bottom: 25px;
+    margin-top: 32px;
+}
+.imput{
+    padding: 6px 60px;
+    background-color: black;
+    color: white;
+}
+
+.new-price{
+    color: #b85797;
+    font-family: tahoma;
+    font-weight: normal;
+    font-size: 12pt;
+}
+.end{
+    color: #cccccc;
+    font-family: tahoma;
+    font-weight: normal;
+    margin: 2px;
+}
+.dk{
+    width: 65px;
+    height: 20px;
+    font-family: tahoma;
+    font-weight: normal;
+    font-size: 9pt;
+    border: 0px;
+    margin: 0px;
+    background-color: #293030;
+    color: #d1bdd0;
+    margin-left: 87px;
+}
+h3{
+    font-family: tahoma;
+    font-weight: normal;
+    font-size: 10pt;
+}
+.thongtin{
+    margin: 30px;
+
+}
